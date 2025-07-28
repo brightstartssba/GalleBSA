@@ -56,6 +56,7 @@ lib/
   - **ANALYZER WARNINGS**: Removed unnecessary null checks and non-null assertions
   - **GRADLE PERMISSIONS**: Added chmod +x for gradlew in GitHub Actions workflow
   - **GRADLEW FIX**: Replaced corrupted gradlew with complete functional script including JAVACMD setup
+  - **GRADLE WRAPPER JAR**: Fixed corrupted gradle-wrapper.jar (130B → proper size) by downloading from official Gradle repo
 
 ## User Preferences
 - Language: Vietnamese (respond in Vietnamese)
