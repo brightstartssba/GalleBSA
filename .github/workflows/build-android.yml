@@ -36,6 +36,9 @@ jobs:
     - name: Run tests
       run: flutter test || echo "Tests completed with warnings"
 
+    - name: Make gradlew executable
+      run: chmod +x android/gradlew
+
     - name: Build APK
       run: flutter build apk --release
 
@@ -44,6 +47,9 @@ jobs:
       with:
         name: release-apk
         path: build/app/outputs/flutter-apk/app-release.apk
+
+    - name: Make gradlew executable for AAB
+      run: chmod +x android/gradlew
 
     - name: Build App Bundle
       run: flutter build appbundle --release

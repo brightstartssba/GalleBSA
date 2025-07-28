@@ -1,0 +1,21 @@
+﻿2025-07-28T04:16:47.1732211Z ##[group]Run flutter build apk --release
+2025-07-28T04:16:47.1732589Z [36;1mflutter build apk --release[0m
+2025-07-28T04:16:47.1761366Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:16:47.1761599Z env:
+2025-07-28T04:16:47.1761850Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:16:47.1762221Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:16:47.1762616Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:16:47.1762945Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:16:47.1763197Z ##[endgroup]
+2025-07-28T04:16:47.6953903Z 
+2025-07-28T04:16:47.7606515Z Running Gradle task 'assembleRelease'...                        
+2025-07-28T04:16:47.7616127Z /home/runner/work/GalleBSA/GalleBSA/android/gradlew: 122: exec: : Permission denied
+2025-07-28T04:16:47.7765979Z Running Gradle task 'assembleRelease'...                            39ms
+2025-07-28T04:16:47.7800838Z 
+2025-07-28T04:16:47.7807689Z ┌─ Flutter Fix ───────────────────────────────────────────────────────────────────────────────────┐
+2025-07-28T04:16:47.7811441Z │ [!] Gradle does not have execution permission.                                                  │
+2025-07-28T04:16:47.7812670Z │ You should change the ownership of the project directory to your user, or move the project to a │
+2025-07-28T04:16:47.7813797Z │ directory with execute permissions.                                                             │
+2025-07-28T04:16:47.7814861Z └─────────────────────────────────────────────────────────────────────────────────────────────────┘
+2025-07-28T04:16:47.7865319Z Gradle task assembleRelease failed with exit code 126
+2025-07-28T04:16:47.8032112Z ##[error]Process completed with exit code 126.
