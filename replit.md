@@ -55,6 +55,7 @@ lib/
   - **FINAL FIX**: Fixed Duration type conversion for video assets (int → Duration)
   - **ANALYZER WARNINGS**: Removed unnecessary null checks and non-null assertions
   - **GRADLE PERMISSIONS**: Added chmod +x for gradlew in GitHub Actions workflow
+  - **GRADLEW FIX**: Replaced corrupted gradlew with complete functional script including JAVACMD setup
 
 ## User Preferences
 - Language: Vietnamese (respond in Vietnamese)

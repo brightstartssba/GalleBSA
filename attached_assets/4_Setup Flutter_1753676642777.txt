@@ -1,0 +1,58 @@
+﻿2025-07-28T04:21:23.3195448Z ##[group]Run subosito/flutter-action@v2
+2025-07-28T04:21:23.3195786Z with:
+2025-07-28T04:21:23.3195982Z   flutter-version: 3.16.0
+2025-07-28T04:21:23.3196208Z   channel: stable
+2025-07-28T04:21:23.3196423Z   architecture: X64
+2025-07-28T04:21:23.3196611Z   cache: false
+2025-07-28T04:21:23.3196815Z   pub-cache-path: default
+2025-07-28T04:21:23.3197027Z   dry-run: false
+2025-07-28T04:21:23.3197288Z   git-source: https://github.com/flutter/flutter.git
+2025-07-28T04:21:23.3197582Z env:
+2025-07-28T04:21:23.3197842Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3198214Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3198548Z ##[endgroup]
+2025-07-28T04:21:23.3279326Z ##[group]Run chmod +x "$GITHUB_ACTION_PATH/setup.sh"
+2025-07-28T04:21:23.3279767Z [36;1mchmod +x "$GITHUB_ACTION_PATH/setup.sh"[0m
+2025-07-28T04:21:23.3312372Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2025-07-28T04:21:23.3312724Z env:
+2025-07-28T04:21:23.3313066Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3313462Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3313773Z ##[endgroup]
+2025-07-28T04:21:23.3441364Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh -p \
+2025-07-28T04:21:23.3441740Z [36;1m$GITHUB_ACTION_PATH/setup.sh -p \[0m
+2025-07-28T04:21:23.3442011Z [36;1m  -n '3.16.0' \[0m
+2025-07-28T04:21:23.3442229Z [36;1m  -f '' \[0m
+2025-07-28T04:21:23.3442420Z [36;1m  -a 'X64' \[0m
+2025-07-28T04:21:23.3442622Z [36;1m  -k '' \[0m
+2025-07-28T04:21:23.3442803Z [36;1m  -c '' \[0m
+2025-07-28T04:21:23.3442992Z [36;1m  -l '' \[0m
+2025-07-28T04:21:23.3443364Z [36;1m  -d 'default' \[0m
+2025-07-28T04:21:23.3443652Z [36;1m  -g 'https://github.com/flutter/flutter.git' \[0m
+2025-07-28T04:21:23.3443962Z [36;1m  stable[0m
+2025-07-28T04:21:23.3469259Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2025-07-28T04:21:23.3469589Z env:
+2025-07-28T04:21:23.3469848Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3470253Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.3470572Z ##[endgroup]
+2025-07-28T04:21:23.5693260Z ##[group]Run $GITHUB_ACTION_PATH/setup.sh \
+2025-07-28T04:21:23.5693590Z [36;1m$GITHUB_ACTION_PATH/setup.sh \[0m
+2025-07-28T04:21:23.5693861Z [36;1m  -n '3.16.0' \[0m
+2025-07-28T04:21:23.5694080Z [36;1m  -a 'x64' \[0m
+2025-07-28T04:21:23.5694372Z [36;1m  -c '/opt/hostedtoolcache/flutter/stable-3.16.0-x64' \[0m
+2025-07-28T04:21:23.5694723Z [36;1m  -d '/home/runner/.pub-cache' \[0m
+2025-07-28T04:21:23.5694982Z [36;1m  stable[0m
+2025-07-28T04:21:23.5722869Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2025-07-28T04:21:23.5723203Z env:
+2025-07-28T04:21:23.5723453Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.5723840Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:23.5724154Z ##[endgroup]
+2025-07-28T04:21:23.7126719Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2025-07-28T04:21:23.7127918Z                                  Dload  Upload   Total   Spent    Left  Speed
+2025-07-28T04:21:23.7128513Z 
+2025-07-28T04:21:24.6984874Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2025-07-28T04:21:25.6976034Z  13  627M   13 82.8M    0     0  83.9M      0  0:00:07 --:--:--  0:00:07 83.9M
+2025-07-28T04:21:26.6979458Z  29  627M   29  185M    0     0  93.6M      0  0:00:06  0:00:01  0:00:05 93.6M
+2025-07-28T04:21:27.6977266Z  46  627M   46  294M    0     0  98.6M      0  0:00:06  0:00:02  0:00:04 98.6M
+2025-07-28T04:21:28.6978825Z  65  627M   65  411M    0     0   103M      0  0:00:06  0:00:03  0:00:03  103M
+2025-07-28T04:21:29.4590424Z  85  627M   85  535M    0     0   107M      0  0:00:05  0:00:04  0:00:01  107M
+2025-07-28T04:21:29.4590990Z 100  627M  100  627M    0     0   109M      0  0:00:05  0:00:05 --:--:--  114M

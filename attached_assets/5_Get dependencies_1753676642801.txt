@@ -1,0 +1,118 @@
+﻿2025-07-28T04:21:56.2703835Z ##[group]Run flutter pub get
+2025-07-28T04:21:56.2704118Z [36;1mflutter pub get[0m
+2025-07-28T04:21:56.2733407Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:21:56.2733651Z env:
+2025-07-28T04:21:56.2733902Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:56.2734293Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:21:56.2734696Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:21:56.2735198Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:21:56.2735529Z ##[endgroup]
+2025-07-28T04:21:56.8381118Z 
+2025-07-28T04:21:56.8394310Z   ╔════════════════════════════════════════════════════════════════════════════╗
+2025-07-28T04:21:56.8395525Z   ║                 Welcome to Flutter! - https://flutter.dev                  ║
+2025-07-28T04:21:56.8396237Z   ║                                                                            ║
+2025-07-28T04:21:56.8396991Z   ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+2025-07-28T04:21:56.8398004Z   ║ statistics and basic crash reports. This data is used to help improve      ║
+2025-07-28T04:21:56.8398902Z   ║ Flutter tools over time.                                                   ║
+2025-07-28T04:21:56.8399615Z   ║                                                                            ║
+2025-07-28T04:21:56.8400447Z   ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+2025-07-28T04:21:56.8401472Z   ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+2025-07-28T04:21:56.8402502Z   ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+2025-07-28T04:21:56.8403845Z   ║ event will be sent, and then no further information will be sent by the    ║
+2025-07-28T04:21:56.8404685Z   ║ Flutter tool.                                                              ║
+2025-07-28T04:21:56.8405548Z   ║                                                                            ║
+2025-07-28T04:21:56.8406398Z   ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+2025-07-28T04:21:56.8407396Z   ║ The Google Privacy Policy describes how data is handled in this service.   ║
+2025-07-28T04:21:56.8408259Z   ║                                                                            ║
+2025-07-28T04:21:56.8409080Z   ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+2025-07-28T04:21:56.8409996Z   ║ crash reports to Google.                                                   ║
+2025-07-28T04:21:56.8410733Z   ║                                                                            ║
+2025-07-28T04:21:56.8411525Z   ║ Read about data we send with crash reports:                                ║
+2025-07-28T04:21:56.8412523Z   ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+2025-07-28T04:21:56.8413377Z   ║                                                                            ║
+2025-07-28T04:21:56.8414171Z   ║ See Google's privacy policy:                                               ║
+2025-07-28T04:21:56.8415321Z   ║ https://policies.google.com/privacy                                        ║
+2025-07-28T04:21:56.8416173Z   ║                                                                            ║
+2025-07-28T04:21:56.8416999Z   ║ To disable animations in this tool, use 'flutter config --no-animations'.  ║
+2025-07-28T04:21:56.8418016Z   ╚════════════════════════════════════════════════════════════════════════════╝
+2025-07-28T04:21:56.8418519Z 
+2025-07-28T04:22:01.3914469Z Resolving dependencies...
+2025-07-28T04:22:05.5735286Z + async 2.11.0 (2.13.0 available)
+2025-07-28T04:22:05.5735880Z + boolean_selector 2.1.1 (2.1.2 available)
+2025-07-28T04:22:05.5736427Z + cached_network_image 3.3.1 (3.4.1 available)
+2025-07-28T04:22:05.5737082Z + cached_network_image_platform_interface 4.0.0 (4.1.1 available)
+2025-07-28T04:22:05.5737757Z + cached_network_image_web 1.2.0 (1.3.1 available)
+2025-07-28T04:22:05.5738302Z + characters 1.3.0 (1.4.1 available)
+2025-07-28T04:22:05.5739098Z + clock 1.1.1 (1.1.2 available)
+2025-07-28T04:22:05.5739541Z + collection 1.18.0 (1.19.1 available)
+2025-07-28T04:22:05.5740010Z + crypto 3.0.3 (3.0.6 available)
+2025-07-28T04:22:05.5740436Z + csslib 1.0.2
+2025-07-28T04:22:05.5740814Z + cupertino_icons 1.0.8
+2025-07-28T04:22:05.5741208Z + fake_async 1.3.1 (1.3.3 available)
+2025-07-28T04:22:05.5741669Z + ffi 2.1.0 (2.1.4 available)
+2025-07-28T04:22:05.5742064Z + file 7.0.1
+2025-07-28T04:22:05.5742391Z + fixnum 1.1.1
+2025-07-28T04:22:05.5742740Z + flutter 0.0.0 from sdk flutter
+2025-07-28T04:22:05.5743224Z + flutter_cache_manager 3.3.1 (3.4.1 available)
+2025-07-28T04:22:05.5743758Z + flutter_lints 3.0.2 (6.0.0 available)
+2025-07-28T04:22:05.5744253Z + flutter_test 0.0.0 from sdk flutter
+2025-07-28T04:22:05.5744757Z + flutter_web_plugins 0.0.0 from sdk flutter
+2025-07-28T04:22:05.5745393Z + html 0.15.6
+2025-07-28T04:22:05.5745739Z + http 1.2.0 (1.4.0 available)
+2025-07-28T04:22:05.5746166Z + http_parser 4.0.2 (4.1.2 available)
+2025-07-28T04:22:05.5746592Z + intl 0.19.0 (0.20.2 available)
+2025-07-28T04:22:05.5746897Z + lints 3.0.0 (6.0.0 available)
+2025-07-28T04:22:05.5747172Z + matcher 0.12.16 (0.12.17 available)
+2025-07-28T04:22:05.5747518Z + material_color_utilities 0.5.0 (0.13.0 available)
+2025-07-28T04:22:05.5747797Z + meta 1.10.0 (1.17.0 available)
+2025-07-28T04:22:05.5748053Z + nested 1.0.0
+2025-07-28T04:22:05.5748238Z + octo_image 2.1.0
+2025-07-28T04:22:05.5748441Z + path 1.8.3 (1.9.1 available)
+2025-07-28T04:22:05.5748672Z + path_provider 2.1.4 (2.1.5 available)
+2025-07-28T04:22:05.5748946Z + path_provider_android 2.2.4 (2.2.17 available)
+2025-07-28T04:22:05.5749233Z + path_provider_foundation 2.3.2 (2.4.1 available)
+2025-07-28T04:22:05.5749745Z + path_provider_linux 2.2.1
+2025-07-28T04:22:05.5749987Z + path_provider_platform_interface 2.1.2
+2025-07-28T04:22:05.5750261Z + path_provider_windows 2.3.0
+2025-07-28T04:22:05.5750495Z + photo_manager 3.7.1
+2025-07-28T04:22:05.5750697Z + platform 3.1.6
+2025-07-28T04:22:05.5750912Z + plugin_platform_interface 2.1.8
+2025-07-28T04:22:05.5751149Z + provider 6.1.5
+2025-07-28T04:22:05.5751347Z + rxdart 0.27.7 (0.28.0 available)
+2025-07-28T04:22:05.5751585Z + sky_engine 0.0.99 from sdk flutter
+2025-07-28T04:22:05.5751832Z + source_span 1.10.0 (1.10.1 available)
+2025-07-28T04:22:05.5752063Z + sprintf 7.0.0
+2025-07-28T04:22:05.5752263Z + sqflite 2.3.2 (2.4.2 available)
+2025-07-28T04:22:05.5752506Z + sqflite_common 2.5.3 (2.5.5 available)
+2025-07-28T04:22:05.5752762Z + stack_trace 1.11.1 (1.12.1 available)
+2025-07-28T04:22:05.5753015Z + stream_channel 2.1.2 (2.1.4 available)
+2025-07-28T04:22:05.5753257Z + string_scanner 1.2.0 (1.4.1 available)
+2025-07-28T04:22:05.5753511Z + synchronized 3.1.0+1 (3.4.0 available)
+2025-07-28T04:22:05.5753746Z + term_glyph 1.2.1 (1.2.2 available)
+2025-07-28T04:22:05.5753987Z + test_api 0.6.1 (0.7.7 available)
+2025-07-28T04:22:05.5754217Z + typed_data 1.3.2 (1.4.0 available)
+2025-07-28T04:22:05.5754442Z + uuid 4.5.1
+2025-07-28T04:22:05.5754626Z + vector_math 2.1.4 (2.2.0 available)
+2025-07-28T04:22:05.5754875Z + video_player 2.8.5 (2.10.0 available)
+2025-07-28T04:22:05.5755368Z + video_player_android 2.4.14 (2.8.9 available)
+2025-07-28T04:22:05.5755664Z + video_player_avfoundation 2.5.6 (2.8.0 available)
+2025-07-28T04:22:05.5755986Z + video_player_platform_interface 6.2.2 (6.4.0 available)
+2025-07-28T04:22:05.5756282Z + video_player_web 2.1.3 (2.4.0 available)
+2025-07-28T04:22:05.5756536Z + web 0.3.0 (1.1.1 available)
+2025-07-28T04:22:05.5756765Z + xdg_directories 1.0.4 (1.1.0 available)
+2025-07-28T04:22:05.5758935Z Changed 63 dependencies!
+2025-07-28T04:22:05.5774601Z 43 packages have newer versions incompatible with dependency constraints.
+2025-07-28T04:22:05.5775539Z Try `flutter pub outdated` for more information.
+2025-07-28T04:22:05.9416766Z The Flutter CLI developer tool uses Google Analytics to report usage and diagnostic data
+2025-07-28T04:22:05.9417688Z along with package dependencies, and crash reporting to send basic crash reports.
+2025-07-28T04:22:05.9418940Z This data is used to help improve the Dart platform, Flutter framework, and related tools.
+2025-07-28T04:22:05.9419383Z 
+2025-07-28T04:22:05.9419551Z Telemetry is not sent on the very first run.
+2025-07-28T04:22:05.9420143Z To disable reporting of telemetry, run this terminal command:
+2025-07-28T04:22:05.9420581Z 
+2025-07-28T04:22:05.9420766Z flutter --disable-analytics.
+2025-07-28T04:22:05.9421320Z If you opt out of telemetry, an opt-out event will be sent,
+2025-07-28T04:22:05.9421962Z and then no further information will be sent.
+2025-07-28T04:22:05.9422542Z This data is collected in accordance with the
+2025-07-28T04:22:05.9423242Z Google Privacy Policy (https://policies.google.com/privacy).
+2025-07-28T04:22:05.9423781Z 
