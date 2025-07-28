@@ -44,9 +44,10 @@ jobs:
 
     - name: Setup Gradle Properties
       run: |
-        echo "org.gradle.daemon=false" >> android/gradle.properties
-        echo "org.gradle.configureondemand=true" >> android/gradle.properties
-        echo "org.gradle.parallel=false" >> android/gradle.properties
+        cd android
+        echo -e "\norg.gradle.daemon=false" >> gradle.properties  
+        echo "org.gradle.configureondemand=true" >> gradle.properties
+        echo "org.gradle.parallel=false" >> gradle.properties
 
     - name: Build APK
       run: flutter build apk --release --verbose

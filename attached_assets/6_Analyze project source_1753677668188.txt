@@ -1,0 +1,11 @@
+﻿2025-07-28T04:35:44.1448623Z ##[group]Run flutter analyze --no-fatal-infos
+2025-07-28T04:35:44.1448993Z [36;1mflutter analyze --no-fatal-infos[0m
+2025-07-28T04:35:44.1476914Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:35:44.1477136Z env:
+2025-07-28T04:35:44.1477370Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:35:44.1477753Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:35:44.1478378Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:35:44.1478699Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:35:44.1478926Z ##[endgroup]
+2025-07-28T04:35:53.0587820Z Analyzing GalleBSA...                                           
+2025-07-28T04:35:53.0598936Z No issues found! (ran in 8.1s)
