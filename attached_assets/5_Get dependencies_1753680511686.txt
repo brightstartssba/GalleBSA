@@ -1,0 +1,62 @@
+﻿2025-07-28T05:26:34.6671392Z ##[group]Run flutter pub get
+2025-07-28T05:26:34.6671673Z [36;1mflutter pub get[0m
+2025-07-28T05:26:34.6701230Z shell: /usr/bin/bash -e {0}
+2025-07-28T05:26:34.6701457Z env:
+2025-07-28T05:26:34.6701688Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:26:34.6702066Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:26:34.6702454Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.13.9-x64
+2025-07-28T05:26:34.6702777Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T05:26:34.6703011Z ##[endgroup]
+2025-07-28T05:26:35.0115388Z 
+2025-07-28T05:26:35.0120434Z   ╔════════════════════════════════════════════════════════════════════════════╗
+2025-07-28T05:26:35.0121467Z   ║                 Welcome to Flutter! - https://flutter.dev                  ║
+2025-07-28T05:26:35.0122702Z   ║                                                                            ║
+2025-07-28T05:26:35.0123514Z   ║ The Flutter tool uses Google Analytics to anonymously report feature usage ║
+2025-07-28T05:26:35.0124654Z   ║ statistics and basic crash reports. This data is used to help improve      ║
+2025-07-28T05:26:35.0125804Z   ║ Flutter tools over time.                                                   ║
+2025-07-28T05:26:35.0126573Z   ║                                                                            ║
+2025-07-28T05:26:35.0127351Z   ║ Flutter tool analytics are not sent on the very first run. To disable      ║
+2025-07-28T05:26:35.0128357Z   ║ reporting, type 'flutter config --no-analytics'. To display the current    ║
+2025-07-28T05:26:35.0129657Z   ║ setting, type 'flutter config'. If you opt out of analytics, an opt-out    ║
+2025-07-28T05:26:35.0130568Z   ║ event will be sent, and then no further information will be sent by the    ║
+2025-07-28T05:26:35.0131380Z   ║ Flutter tool.                                                              ║
+2025-07-28T05:26:35.0132063Z   ║                                                                            ║
+2025-07-28T05:26:35.0132876Z   ║ By downloading the Flutter SDK, you agree to the Google Terms of Service.  ║
+2025-07-28T05:26:35.0133843Z   ║ Note: The Google Privacy Policy describes how data is handled in this      ║
+2025-07-28T05:26:35.0134692Z   ║ service.                                                                   ║
+2025-07-28T05:26:35.0135556Z   ║                                                                            ║
+2025-07-28T05:26:35.0136360Z   ║ Moreover, Flutter includes the Dart SDK, which may send usage metrics and  ║
+2025-07-28T05:26:35.0137235Z   ║ crash reports to Google.                                                   ║
+2025-07-28T05:26:35.0137959Z   ║                                                                            ║
+2025-07-28T05:26:35.0138683Z   ║ Read about data we send with crash reports:                                ║
+2025-07-28T05:26:35.0139609Z   ║ https://flutter.dev/docs/reference/crash-reporting                         ║
+2025-07-28T05:26:35.0140395Z   ║                                                                            ║
+2025-07-28T05:26:35.0141165Z   ║ See Google's privacy policy:                                               ║
+2025-07-28T05:26:35.0142060Z   ║ https://policies.google.com/privacy                                        ║
+2025-07-28T05:26:35.0143020Z   ╚════════════════════════════════════════════════════════════════════════════╝
+2025-07-28T05:26:35.0143452Z 
+2025-07-28T05:26:39.5702995Z Resolving dependencies...
+2025-07-28T05:26:40.4957321Z Note: collection is pinned to version 1.17.2 by flutter_test from the flutter SDK.
+2025-07-28T05:26:40.4958048Z See https://dart.dev/go/sdk-version-pinning for details.
+2025-07-28T05:26:40.4958466Z 
+2025-07-28T05:26:40.4958474Z 
+2025-07-28T05:26:40.4959017Z Because every version of flutter_test from sdk depends on collection 1.17.2 and ios_gallery_app depends on collection ^1.18.0, flutter_test from sdk is forbidden.
+2025-07-28T05:26:40.4959935Z So, because ios_gallery_app depends on flutter_test from sdk, version solving failed.
+2025-07-28T05:26:40.4960771Z 
+2025-07-28T05:26:40.4960778Z 
+2025-07-28T05:26:40.4960979Z You can try the following suggestion to make the pubspec resolve:
+2025-07-28T05:26:40.4961551Z * Consider downgrading your constraint on collection: flutter pub add collection:^1.17.2
+2025-07-28T05:26:40.5796148Z The Flutter CLI developer tool uses Google Analytics to report usage and diagnostic data
+2025-07-28T05:26:40.5797288Z along with package dependencies, and crash reporting to send basic crash reports.
+2025-07-28T05:26:40.5798337Z This data is used to help improve the Dart platform, Flutter framework, and related tools.
+2025-07-28T05:26:40.5798952Z 
+2025-07-28T05:26:40.5799166Z Telemetry is not sent on the very first run.
+2025-07-28T05:26:40.5799846Z To disable reporting of telemetry, run this terminal command:
+2025-07-28T05:26:40.5800282Z 
+2025-07-28T05:26:40.5800443Z flutter --disable-telemetry.
+2025-07-28T05:26:40.5800909Z If you opt out of telemetry, an opt-out event will be sent,
+2025-07-28T05:26:40.5801604Z and then no further information will be sent.
+2025-07-28T05:26:40.5802197Z This data is collected in accordance with the
+2025-07-28T05:26:40.5802852Z Google Privacy Policy (https://policies.google.com/privacy).
+2025-07-28T05:26:40.5803378Z 
+2025-07-28T05:26:40.5868027Z ##[error]Process completed with exit code 1.

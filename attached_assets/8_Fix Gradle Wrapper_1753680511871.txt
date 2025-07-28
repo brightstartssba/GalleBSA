@@ -1,0 +1,18 @@
+﻿2025-07-28T05:21:35.8743462Z ##[group]Run cd android
+2025-07-28T05:21:35.8743733Z [36;1mcd android[0m
+2025-07-28T05:21:35.8744273Z [36;1mcurl -L -o gradle/wrapper/gradle-wrapper.jar https://github.com/gradle/gradle/raw/v8.1.0/gradle/wrapper/gradle-wrapper.jar[0m
+2025-07-28T05:21:35.8744807Z [36;1mchmod +x gradlew[0m
+2025-07-28T05:21:35.8773553Z shell: /usr/bin/bash -e {0}
+2025-07-28T05:21:35.8773773Z env:
+2025-07-28T05:21:35.8774009Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:21:35.8774385Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:21:35.8774769Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T05:21:35.8775072Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T05:21:35.8775295Z ##[endgroup]
+2025-07-28T05:21:35.8877486Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+2025-07-28T05:21:35.8878325Z                                  Dload  Upload   Total   Spent    Left  Speed
+2025-07-28T05:21:35.8878704Z 
+2025-07-28T05:21:36.0712687Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2025-07-28T05:21:36.0713682Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2025-07-28T05:21:36.2643071Z 
+2025-07-28T05:21:36.2643690Z 100 62076  100 62076    0     0   160k      0 --:--:-- --:--:-- --:--:--  160k
