@@ -1,0 +1,12 @@
+﻿2025-07-28T05:03:45.4405547Z ##[group]Run cd android
+2025-07-28T05:03:45.4405822Z [36;1mcd android[0m
+2025-07-28T05:03:45.4406117Z [36;1mecho -e "\norg.gradle.daemon=false" >> gradle.properties  [0m
+2025-07-28T05:03:45.4406543Z [36;1mecho "org.gradle.configureondemand=true" >> gradle.properties[0m
+2025-07-28T05:03:45.4406954Z [36;1mecho "org.gradle.parallel=false" >> gradle.properties[0m
+2025-07-28T05:03:45.4435278Z shell: /usr/bin/bash -e {0}
+2025-07-28T05:03:45.4435509Z env:
+2025-07-28T05:03:45.4435752Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:03:45.4436142Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T05:03:45.4436544Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T05:03:45.4436870Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T05:03:45.4437130Z ##[endgroup]

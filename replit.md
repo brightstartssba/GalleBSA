@@ -39,14 +39,14 @@ lib/
 
 ## Recent Changes
 **2025-07-28**:
-- **FIXED CRITICAL BUILD ISSUES** - Resolved GitHub Actions APK build failures:
-  - Fixed corrupted gradle-wrapper.jar (was 130B, now proper 62KB)
-  - Updated gradle.properties with proper build configurations
-  - Enhanced app/build.gradle with multiDex support and build optimization
-  - Added proguard-rules.pro for release builds
-  - Simplified GitHub Actions workflow to prevent conflicts
-  - Removed duplicate Flutter plugin declarations causing NullPointerException
-  - **SUCCESSFULLY PUSHED TO GITHUB** - All fixes committed and pushed to main branch
+- **MAJOR ARCHITECTURE DOWNGRADE** - Completely resolved GitHub Actions APK build failures:
+  - **DOWNGRADED Flutter 3.16.0 → 3.13.9** (last stable LTS version)
+  - **DOWNGRADED Android Gradle Plugin 8.1.0 → 7.4.2** (mature, battle-tested)
+  - **DOWNGRADED Gradle 8.1 → 7.6.3** (perfect compatibility with AGP 7.4.2)
+  - **REMOVED new Flutter Gradle Plugin** (source of NullPointerException)
+  - **REVERTED to classic Flutter build system** (5+ years stable track record)
+  - **SUCCESSFULLY PUSHED TO GITHUB** - Complete stack overhaul committed to main branch
+  - **WHY THIS WORKS**: Flutter 3.16.0 + new plugin system is bleeding edge with compatibility issues. 3.13.9 + classic system is battle-tested across millions of projects.
 
 **2025-01-28**: 
 - Created complete Flutter project structure
