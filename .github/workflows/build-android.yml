@@ -36,18 +36,11 @@ jobs:
     - name: Run tests
       run: flutter test || echo "Tests completed with warnings"
 
-    - name: Download Gradle Wrapper
+    - name: Fix Gradle Wrapper
       run: |
         cd android
-        wget https://raw.githubusercontent.com/gradle/gradle/v8.1.0/gradle/wrapper/gradle-wrapper.jar -O gradle/wrapper/gradle-wrapper.jar
+        curl -L -o gradle/wrapper/gradle-wrapper.jar https://github.com/gradle/gradle/raw/v8.1.0/gradle/wrapper/gradle-wrapper.jar
         chmod +x gradlew
-
-    - name: Setup Gradle Properties
-      run: |
-        cd android
-        echo -e "\norg.gradle.daemon=false" >> gradle.properties  
-        echo "org.gradle.configureondemand=true" >> gradle.properties
-        echo "org.gradle.parallel=false" >> gradle.properties
 
     - name: Build APK
       run: flutter build apk --release --verbose
