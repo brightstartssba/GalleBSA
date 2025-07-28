@@ -1,0 +1,69 @@
+﻿2025-07-28T04:44:44.8559601Z ##[group]Run actions/checkout@v4
+2025-07-28T04:44:44.8560486Z with:
+2025-07-28T04:44:44.8560941Z   repository: brightstartssba/GalleBSA
+2025-07-28T04:44:44.8561655Z   token: ***
+2025-07-28T04:44:44.8562071Z   ssh-strict: true
+2025-07-28T04:44:44.8562486Z   ssh-user: git
+2025-07-28T04:44:44.8562909Z   persist-credentials: true
+2025-07-28T04:44:44.8563367Z   clean: true
+2025-07-28T04:44:44.8563788Z   sparse-checkout-cone-mode: true
+2025-07-28T04:44:44.8564553Z   fetch-depth: 1
+2025-07-28T04:44:44.8564963Z   fetch-tags: false
+2025-07-28T04:44:44.8565383Z   show-progress: true
+2025-07-28T04:44:44.8565809Z   lfs: false
+2025-07-28T04:44:44.8566205Z   submodules: false
+2025-07-28T04:44:44.8566633Z   set-safe-directory: true
+2025-07-28T04:44:44.8567358Z ##[endgroup]
+2025-07-28T04:44:45.0242141Z Syncing repository: brightstartssba/GalleBSA
+2025-07-28T04:44:45.0244209Z ##[group]Getting Git version info
+2025-07-28T04:44:45.0245168Z Working directory is '/home/runner/work/GalleBSA/GalleBSA'
+2025-07-28T04:44:45.0247284Z [command]/usr/bin/git version
+2025-07-28T04:44:45.0287839Z git version 2.50.1
+2025-07-28T04:44:45.0315614Z ##[endgroup]
+2025-07-28T04:44:45.0327685Z Temporarily overriding HOME='/home/runner/work/_temp/1d369ef0-68eb-4d04-a915-d73f31ca8b6b' before making global git config changes
+2025-07-28T04:44:45.0339412Z Adding repository directory to the temporary git global config as a safe directory
+2025-07-28T04:44:45.0341371Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/GalleBSA/GalleBSA
+2025-07-28T04:44:45.0374593Z Deleting the contents of '/home/runner/work/GalleBSA/GalleBSA'
+2025-07-28T04:44:45.0378205Z ##[group]Initializing the repository
+2025-07-28T04:44:45.0381976Z [command]/usr/bin/git init /home/runner/work/GalleBSA/GalleBSA
+2025-07-28T04:44:45.0439516Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-07-28T04:44:45.0441241Z hint: is subject to change. To configure the initial branch name to use in all
+2025-07-28T04:44:45.0442761Z hint: of your new repositories, which will suppress this warning, call:
+2025-07-28T04:44:45.0444097Z hint:
+2025-07-28T04:44:45.0444683Z hint: 	git config --global init.defaultBranch <name>
+2025-07-28T04:44:45.0445282Z hint:
+2025-07-28T04:44:45.0445854Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-07-28T04:44:45.0446751Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-07-28T04:44:45.0447466Z hint:
+2025-07-28T04:44:45.0447863Z hint: 	git branch -m <name>
+2025-07-28T04:44:45.0448596Z hint:
+2025-07-28T04:44:45.0449396Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-07-28T04:44:45.0450434Z Initialized empty Git repository in /home/runner/work/GalleBSA/GalleBSA/.git/
+2025-07-28T04:44:45.0454268Z [command]/usr/bin/git remote add origin https://github.com/brightstartssba/GalleBSA
+2025-07-28T04:44:45.0485848Z ##[endgroup]
+2025-07-28T04:44:45.0486616Z ##[group]Disabling automatic garbage collection
+2025-07-28T04:44:45.0489365Z [command]/usr/bin/git config --local gc.auto 0
+2025-07-28T04:44:45.0517672Z ##[endgroup]
+2025-07-28T04:44:45.0518417Z ##[group]Setting up auth
+2025-07-28T04:44:45.0524353Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-07-28T04:44:45.0552946Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-07-28T04:44:45.0824686Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-07-28T04:44:45.0852646Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-07-28T04:44:45.1082399Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-07-28T04:44:45.1123069Z ##[endgroup]
+2025-07-28T04:44:45.1124998Z ##[group]Fetching the repository
+2025-07-28T04:44:45.1133243Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +66802d4cdcac0295101be6a2a0aa624f8d3c9289:refs/remotes/origin/main
+2025-07-28T04:44:45.6386994Z From https://github.com/brightstartssba/GalleBSA
+2025-07-28T04:44:45.6388924Z  * [new ref]         66802d4cdcac0295101be6a2a0aa624f8d3c9289 -> origin/main
+2025-07-28T04:44:45.6411657Z ##[endgroup]
+2025-07-28T04:44:45.6413356Z ##[group]Determining the checkout info
+2025-07-28T04:44:45.6415449Z ##[endgroup]
+2025-07-28T04:44:45.6420405Z [command]/usr/bin/git sparse-checkout disable
+2025-07-28T04:44:45.6461064Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-07-28T04:44:45.6489483Z ##[group]Checking out the ref
+2025-07-28T04:44:45.6493768Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-07-28T04:44:45.6660651Z Switched to a new branch 'main'
+2025-07-28T04:44:45.6663602Z branch 'main' set up to track 'origin/main'.
+2025-07-28T04:44:45.6671178Z ##[endgroup]
+2025-07-28T04:44:45.6704844Z [command]/usr/bin/git log -1 --format=%H
+2025-07-28T04:44:45.6727158Z 66802d4cdcac0295101be6a2a0aa624f8d3c9289

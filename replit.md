@@ -58,6 +58,7 @@ lib/
   - **GRADLEW FIX**: Replaced corrupted gradlew with complete functional script including JAVACMD setup
   - **GRADLE WRAPPER JAR**: Fixed corrupted gradle-wrapper.jar (130B → proper size) by downloading from official Gradle repo
   - **GRADLE PROPERTIES FORMAT**: Fixed property concatenation issue causing 'android.enableJetifier=trueorg.gradle.daemon=false' parse error
+  - **ANDROID BUILD CONFIG**: Fixed NullPointerException in Flutter plugin evaluation by removing evaluationDependsOn and hardcoding SDK versions
 
 ## User Preferences
 - Language: Vietnamese (respond in Vietnamese)

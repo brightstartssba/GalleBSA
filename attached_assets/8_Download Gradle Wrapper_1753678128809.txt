@@ -1,0 +1,23 @@
+﻿2025-07-28T04:45:53.2072885Z ##[group]Run cd android
+2025-07-28T04:45:53.2073167Z [36;1mcd android[0m
+2025-07-28T04:45:53.2073808Z [36;1mwget https://raw.githubusercontent.com/gradle/gradle/v8.1.0/gradle/wrapper/gradle-wrapper.jar -O gradle/wrapper/gradle-wrapper.jar[0m
+2025-07-28T04:45:53.2074732Z [36;1mchmod +x gradlew[0m
+2025-07-28T04:45:53.2101678Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:45:53.2101897Z env:
+2025-07-28T04:45:53.2102119Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:45:53.2102526Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:45:53.2102934Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:45:53.2103286Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:45:53.2103527Z ##[endgroup]
+2025-07-28T04:45:53.2189038Z --2025-07-28 04:45:53--  https://raw.githubusercontent.com/gradle/gradle/v8.1.0/gradle/wrapper/gradle-wrapper.jar
+2025-07-28T04:45:53.2439064Z Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.108.133, ...
+2025-07-28T04:45:53.2448921Z Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+2025-07-28T04:45:53.4283296Z HTTP request sent, awaiting response... 200 OK
+2025-07-28T04:45:53.4283827Z Length: 62076 (61K) [application/octet-stream]
+2025-07-28T04:45:53.4284899Z Saving to: ‘gradle/wrapper/gradle-wrapper.jar’
+2025-07-28T04:45:53.4287872Z 
+2025-07-28T04:45:53.4294052Z      0K .......... .......... .......... .......... .......... 82% 46.7M 0s
+2025-07-28T04:45:53.4295183Z     50K ..........                                            100% 90.1M=0.001s
+2025-07-28T04:45:53.4295404Z 
+2025-07-28T04:45:53.4295757Z 2025-07-28 04:45:53 (51.0 MB/s) - ‘gradle/wrapper/gradle-wrapper.jar’ saved [62076/62076]
+2025-07-28T04:45:53.4296053Z 
