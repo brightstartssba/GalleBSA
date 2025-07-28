@@ -21,11 +21,18 @@ jobs:
         distribution: 'zulu'
         java-version: '17'
 
+    - name: Clear Flutter Cache
+      run: |
+        sudo rm -rf /opt/hostedtoolcache/flutter
+        sudo rm -rf ~/.flutter
+        sudo rm -rf $FLUTTER_ROOT
+        
     - name: Setup Flutter
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.13.9'
         channel: 'stable'
+        cache: false
 
     - name: Get dependencies
       run: flutter pub get

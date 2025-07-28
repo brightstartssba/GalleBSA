@@ -27,8 +27,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.ios_gallery_app"
-    compileSdk 34
-    ndkVersion "25.1.8937393"
+    compileSdk 33
+    ndkVersion "23.1.7779620"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -46,7 +46,7 @@ android {
     defaultConfig {
         applicationId "com.example.ios_gallery_app"
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true
