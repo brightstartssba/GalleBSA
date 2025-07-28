@@ -1,0 +1,16 @@
+﻿2025-07-28T04:12:15.9232015Z ##[group]Run flutter analyze --no-fatal-infos
+2025-07-28T04:12:15.9232363Z [36;1mflutter analyze --no-fatal-infos[0m
+2025-07-28T04:12:15.9259833Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:12:15.9260062Z env:
+2025-07-28T04:12:15.9260296Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:12:15.9260676Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:12:15.9261065Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:12:15.9261385Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:12:15.9261619Z ##[endgroup]
+2025-07-28T04:12:24.6077710Z Analyzing GalleBSA...                                           
+2025-07-28T04:12:24.6080649Z 
+2025-07-28T04:12:24.6116113Z warning • The operand can't be null, so the condition is always 'true' • lib/models/media_item.dart:33:65 • unnecessary_null_comparison
+2025-07-28T04:12:24.6117646Z warning • The '!' will have no effect because the receiver can't be null • lib/models/media_item.dart:34:45 • unnecessary_non_null_assertion
+2025-07-28T04:12:24.6124056Z 
+2025-07-28T04:12:24.6244705Z 2 issues found. (ran in 7.9s)
+2025-07-28T04:12:24.6420992Z ##[error]Process completed with exit code 1.
