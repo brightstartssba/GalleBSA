@@ -3,7 +3,7 @@ import 'package:photo_manager/photo_manager.dart';
 class MediaItem {
   final String id;
   final String? title;
-  final MediaType type;
+  final AssetType type;
   final DateTime createdTime;
   final int width;
   final int height;

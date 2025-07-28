@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import '../providers/gallery_provider.dart';
 import '../widgets/gallery_grid.dart';
