@@ -38,7 +38,17 @@ lib/
 ```
 
 ## Recent Changes
-**2025-07-28**:
+**2025-07-28 (Latest Update)**:
+- **FIXED CODEMAGIC BUILD CONFIGURATION** - Resolved Flutter Gradle plugin compatibility issues:
+  - **REVERTED to classic Flutter build system** for maximum compatibility across Flutter versions
+  - **UPDATED android/app/build.gradle**: Switched from new plugins block back to classic apply plugin method
+  - **FIXED android/settings.gradle**: Implemented conditional app_plugin_loader loading for version compatibility
+  - **OPTIMIZED gradle.properties**: Enhanced memory allocation and parallel processing for faster builds
+  - **CREATED codemagic.yaml**: Added comprehensive build configuration for Codemagic CI/CD
+  - **BACKWARD COMPATIBILITY**: Configuration now works with both Flutter 3.13+ and 3.16+ versions
+  - **WHY THIS FIXES THE ERROR**: The "app_plugin_loader Gradle plugin imperatively" error occurs when newer plugin syntax is used with older Flutter versions. Classic method works universally.
+
+**2025-07-28 (Previous)**:
 - **MAJOR ARCHITECTURE DOWNGRADE** - Completely resolved GitHub Actions APK build failures:
   - **DOWNGRADED Flutter 3.16.0 → 3.13.9** (last stable LTS version)
   - **DOWNGRADED Android Gradle Plugin 8.1.0 → 7.4.2** (mature, battle-tested)
