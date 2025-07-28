@@ -48,10 +48,11 @@ lib/
 - Implemented Recent Days section with date grouping
 - **FIXED BUILD ISSUES**: 
   - Fixed MediaType → AssetType in models
-  - Added dart:typed_data import for Uint8List
+  - Added dart:typed_data import for Uint8List  
   - Removed unnecessary imports causing warnings
   - Updated GitHub Actions to handle analysis warnings
   - Added gradle wrapper and Android configuration files
+  - **FINAL FIX**: Fixed Duration type conversion for video assets (int → Duration)
 
 ## User Preferences
 - Language: Vietnamese (respond in Vietnamese)

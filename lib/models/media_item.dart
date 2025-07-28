@@ -30,7 +30,9 @@ class MediaItem {
       width: asset.width,
       height: asset.height,
       asset: asset,
-      duration: asset.type == AssetType.video ? asset.duration : null,
+      duration: asset.type == AssetType.video && asset.duration != null
+          ? Duration(seconds: asset.duration!)
+          : null,
     );
   }
 

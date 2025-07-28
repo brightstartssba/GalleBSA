@@ -1,0 +1,15 @@
+﻿2025-07-28T04:08:08.4820915Z ##[group]Run flutter analyze --no-fatal-infos
+2025-07-28T04:08:08.4821522Z [36;1mflutter analyze --no-fatal-infos[0m
+2025-07-28T04:08:08.4849624Z shell: /usr/bin/bash -e {0}
+2025-07-28T04:08:08.4849867Z env:
+2025-07-28T04:08:08.4850126Z   JAVA_HOME: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:08:08.4850509Z   JAVA_HOME_17_X64: /opt/hostedtoolcache/Java_Zulu_jdk/17.0.16-8/x64
+2025-07-28T04:08:08.4850903Z   FLUTTER_ROOT: /opt/hostedtoolcache/flutter/stable-3.16.0-x64
+2025-07-28T04:08:08.4851453Z   PUB_CACHE: /home/runner/.pub-cache
+2025-07-28T04:08:08.4851703Z ##[endgroup]
+2025-07-28T04:08:17.0660551Z Analyzing GalleBSA...                                           
+2025-07-28T04:08:17.0664185Z 
+2025-07-28T04:08:17.0699952Z   error • The argument type 'int?' can't be assigned to the parameter type 'Duration?' • lib/models/media_item.dart:33:17 • argument_type_not_assignable
+2025-07-28T04:08:17.0707094Z 
+2025-07-28T04:08:17.0831354Z 1 issue found. (ran in 7.8s)
+2025-07-28T04:08:17.1014346Z ##[error]Process completed with exit code 1.
